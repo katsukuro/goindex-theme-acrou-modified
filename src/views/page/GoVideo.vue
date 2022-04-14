@@ -1,5 +1,5 @@
 <template>
-  <div class="content g2-content">
+  <div id="videoPlayer" class="content g2-content">
     <div v-if="options && options.api" class="video-content">
       <iframe
         width="100%"
